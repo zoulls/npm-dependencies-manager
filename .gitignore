@@ -1,0 +1,50 @@
+# OS
+.directory
+.DS_Store
+._*
+
+# Netbeans / Eclipse
+nbproject/
+*.project
+.nbrun
+
+# JetBrains
+.idea/
+*.ipr
+*.iws
+*.iml
+
+# VIm
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+# Composer
+deps.lock
+composer.phar
+composer.lock
+composerInstaller.php
+
+# Bootstrap
+app/bootstrap*
+
+# Configuration files
+app/config/parameters.ini
+app/config/parameters.yml
+
+# Symfony directories
+vendor/
+logs/
+cache/
+web/uploads/
+web/bundles/
+cov/
+
+# phpCs report directories
+report/*
+
+# Node exclude
+node_modules/

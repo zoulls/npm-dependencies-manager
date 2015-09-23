@@ -1,0 +1,61 @@
+#
+# Git normalization
+#
+
+# Don't export these to archive
+.gitattributes export-ignore
+.gitignore export-ignore
+
+# Shorthand for text files
+[attr]wytext            text eol=lf whitespace=trailing-space,space-before-tab
+[attr]wytext-tab2       text eol=lf whitespace=trailing-space,space-before-tab,tab-in-indent,tabwidth=2
+[attr]wytext-tab4       text eol=lf whitespace=trailing-space,space-before-tab,tab-in-indent,tabwidth=4
+
+# Shorthand for binary files
+[attr]wybinary          -text diff
+
+# Auto-detect text files, ensure they use LF
+* text=auto eol=lf
+
+# Define text file attributes
+*.c     wytext          diff=cpp
+*.cpp   wytext-tab4     diff=cpp
+*.css   wytext-tab2
+*.csv   wytext
+*.h     wytext-tab4     diff=cpp
+*.htm   wytext-tab2     diff=html
+*.html  wytext-tab2     diff=html
+*.js    wytext-tab2
+*.json  wytext-tab2
+*.md    wytext
+*.php   wytext-tab4     diff=php
+*.po    wytext
+*.pro   wytext
+*.py    wytext-tab4     diff=python
+*.rst   wytext
+*.sh    wytext
+*.sls   wytext-tab2
+*.sty   wytext          diff=tex
+*.svg   wytext
+*.txt   wytext
+*.tex   wytext          diff=tex
+*.ui    wytext
+*.xml   wytext
+*.xsd   wytext
+*.yml   wytext-tab2
+
+# Define binary file attributes
+*.eot   wybinary
+*.gif   wybinary
+*.gz    wybinary
+*.ico   wybinary
+*.jpg   wybinary
+*.jpeg  wybinary
+*.otf   wybinary
+*.png   wybinary
+*.pdf   wybinary
+*.tif   wybinary
+*.tiff  wybinary
+*.ttf   wybinary
+*.woff  wybinary
+*.zip   wybinary
