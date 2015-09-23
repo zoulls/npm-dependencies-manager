@@ -1,0 +1,18 @@
+{
+  "name": "npm-dependencies-manager",
+  "version": "0.0.1",
+  "author": "Julien Ausset",
+  "description": "Check outdated dependencies",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "async": "1.4.1",
+    "commander": "2.8.0",
+    "jsonfile": "2.2.2",
+    "npm": "3.3.3"
+  },
+  "devDependencies": {},
+  "main": "app.js"
+}

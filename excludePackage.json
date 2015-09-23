@@ -1,0 +1,6 @@
+{
+  "exclude": ["commander"],
+  "maxVersion": {
+    "async": "1.4.1"
+  }
+}
