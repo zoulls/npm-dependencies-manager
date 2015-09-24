@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "author": "Julien Ausset",
   "description": "Check outdated dependencies",
-  "private": true,
+  "private": false,
   "scripts": {
     "start": "node app.js"
   },
